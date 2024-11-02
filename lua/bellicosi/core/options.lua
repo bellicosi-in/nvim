@@ -40,3 +40,14 @@ opt.splitbelow = true --split horizontal window to the bottom
 
 --turn off swapfile
 opt.swapfile = false
+
+-- Scrolling
+opt.scrolloff = 8                -- Minimum lines to keep above and below cursor
+opt.sidescrolloff = 8           -- Minimum columns to keep left and right of cursor
+opt.smoothscroll = true         -- Enable smooth scrolling
+opt.mouse = 'a'                 -- Enable mouse support in all modes
+
+-- Command line
+opt.cmdheight = 1              -- Height of command line
+opt.showmode = true            -- Show current mode
+opt.showcmd = true            -- Show command in bottom bar
